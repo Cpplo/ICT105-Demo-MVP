@@ -38,7 +38,7 @@ Using the NUF scoring method (scored 1–5 per dimension), the Student Freelance
 - Selected opportunity file: `docs/selected-opportunity.md`
 - GitHub issue screenshot: <img width="926" height="326" alt="image" src="https://github.com/user-attachments/assets/66a0e8a5-2be8-4064-8d90-344b8cf9d22c" />
 
-- Commit link: *(paste commit URL here after pushing to GitHub)*
+- Commit link: https://github.com/Cpplo/ICT105-TechRats-MVP/commits/main/
 
 ### Plan for Lab 03
 The team will prepare interview and survey questions targeting RSU university students who have freelance experience or interest. We will collect at least 10 survey responses to validate whether students want a dedicated student freelance platform and identify the most important features they need.

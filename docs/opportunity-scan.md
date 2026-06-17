@@ -53,9 +53,35 @@
 
 ## Technology Feasibility Mapping
 
+### Idea 1: AI Knowledge Management System
 
 | Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
 |---|---|---|---|---|---|
-| Idea 1: AI Knowledge Management System | Conceptual web prototype with API integration | HTML/CSS/JS frontend, OpenAI API (chat completion), Google Sheets as document index, Glitch for hosting | Sample internal documents (PDFs, notes), Q&A pairs for testing, user query examples | High | Partial |
-| Idea 2: Digital Identity & Credential Verification Platform | Form-based MVP with QR code generation | HTML/CSS/JS, Google Forms (credential submission), Google Sheets (credential records), qrcode.js library for QR generation, GitHub Pages for hosting | Student name, institution, certificate type, issue date, unique credential ID | High | Partial |
-| Idea 3: Student Freelancer Marketplace Platform | Simple web app prototype with Google Sheets backend | HTML/CSS/JS, Google Forms (profile & project submission), Google Sheets (listings database), JavaScript fetch API to display listings, GitHub Pages for hosting | Student profiles (name, skills, university), project listings (title, budget, skill needed), client contact info | Low | Yes |
+| 1.1: Unified Document Search | Conceptual web prototype with API | React, OpenAI API, LangChain, Pinecone | Sample documents from Google Drive / email / Notion | High | Partial |
+| 1.2: Knowledge Capture System | Backend prototype with API | Node.js, OpenAI API, LangChain, MongoDB | Chat logs, meeting transcripts, decision records | High | Partial |
+| 1.3: AI Onboarding Assistant | Simple web app prototype | React, Node.js, OpenAI API, Vector Database | Company policy docs, onboarding guides, FAQ pairs | Medium | Yes |
+| 1.4: Student Document Q&A Tool | Simple web app prototype with API | React, OpenAI API (file upload), Node.js | Sample lecture slides, PDFs, course notes | Medium | Yes |
+| 1.5: AI Policy Q&A System | Conceptual web prototype with API | LangChain, OpenAI API, React, Node.js, Vector Database | Internal policy documents, regulatory PDFs | High | Partial |
+| 1.6: Internal Research Repository | Conceptual web prototype with API | React, OpenAI Embeddings, LangChain, Pinecone, Node.js | Past research reports, findings summaries | High | Partial |
+
+### Idea 2: Digital Identity & Credential Verification Platform
+
+| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
+|---|---|---|---|---|---|
+| 2.1: Credential Verification Portal | Form-based MVP with QR code | React, Spring Boot, QR code library, PostgreSQL, JWT | Credential records, institution data, employer accounts | High | Partial |
+| 2.2: Digital Credential Wallet | Simple web app prototype | React, Spring Boot, Cloud Storage, JWT, QR Code | Student profiles, certificate metadata, issuing institutions | High | Partial |
+| 2.3: Self-Service Verification Portal | Landing page MVP | HTML/CSS/JS, Spring Boot, PostgreSQL, QR Code API | Institution registry, credential records | Medium | Yes |
+| 2.4: Signed Digital Badge System | Conceptual prototype | React, Spring Boot, SHA-256 hashing, QR Code, PostgreSQL | Course completion records, platform issuer data | High | Partial |
+| 2.5: Cross-Border Verification Network | Conceptual prototype | React, Spring Boot, REST API, JWT, PostgreSQL, i18n | Foreign institution registry, multilingual credential data | High | No |
+| 2.6: Time-Limited Credential Sharing | Form-based MVP | React, Spring Boot, JWT time-limited tokens, QR Code, PostgreSQL | Student credentials, verifier accounts, expiry rules | Medium | Yes |
+
+### Idea 3: Student Freelancer Marketplace Platform
+
+| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible? |
+|---|---|---|---|---|---|
+| 3.1: Student Portfolio Marketplace | Simple web app prototype | React, Spring Boot, PostgreSQL, AWS S3 | Student profiles, portfolio samples, project listings | Medium | Yes |
+| 3.2: AI-Matched Freelance Platform | Simple web app prototype | React, Spring Boot, PostgreSQL, AI Recommendation engine | Project listings, student skill profiles, client budgets | Medium | Yes |
+| 3.3: Escrow & Contract Marketplace | Full web app prototype | React, Spring Boot, PostgreSQL, Payment API (PromptPay/Stripe), WebSocket | Project milestones, payment records, dispute logs | High | Partial |
+| 3.4: Reputation & Review System | Dashboard MVP | React, Spring Boot, PostgreSQL, Star-rating component | Completed project records, client accounts, ratings data | Low | Yes |
+| 3.5: Career Center Integration | Simple web app prototype | React, Spring Boot, REST API, PDF generation, PostgreSQL | Freelance project history, student IDs, career center accounts | Medium | Yes |
+| 3.6: Campus Micro-Task Board | Simple web app prototype | React, Spring Boot, PostgreSQL, WebSocket | Task listings, student profiles, university registry | Low | Yes |

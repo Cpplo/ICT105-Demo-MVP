@@ -223,3 +223,4 @@ The team has successfully established the project repository and defined team ro
 ## Next Step
 
 During Lab 2, the team will perform opportunity scanning and market validation activities. This includes identifying user pain points, researching existing solutions, analyzing competitors, and evaluating the feasibility of each venture idea. Based on the findings, the team will select the most promising project idea for MVP development.
+

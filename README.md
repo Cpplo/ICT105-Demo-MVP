@@ -274,7 +274,7 @@ Our team selected a Student Freelancer Marketplace Platform. The target users ar
 | Lab 3 | Customer discovery | Interview questions, survey, validation evidence | In progress |
 
 ## Current Status
-In Lab 02, the team reviewed six possible IT opportunities and scored them using the NUF method. The Student Freelancer Marketplace Platform was selected as the semester project based on its high usefulness and feasibility scores. All required Lab 02 documents have been created and committed to the repository.
+In Lab 02, the team reviewed six possible IT opportunities from three reviewed ideas from Lab 01 and scored them using the NUF method. The Student Freelancer Marketplace Platform was selected as the semester project based on its high usefulness and feasibility scores. All required Lab 02 documents have been created and committed to the repository.
 
 ## Next Step
 In Lab 03, the team will prepare customer discovery questions and collect evidence from target users. We will conduct surveys and interviews with RSU university students to validate the problem and identify the most important features for the platform.

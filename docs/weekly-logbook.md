@@ -43,3 +43,56 @@ Using the NUF scoring method (scored 1–5 per dimension), the Student Freelance
 ### Plan for Lab 03
 The team will prepare interview and survey questions targeting RSU university students who have freelance experience or interest. We will collect at least 10 survey responses to validate whether students want a dedicated student freelance platform and identify the most important features they need.
 
+
+# Weekly Venture Logbook
+
+## Lab 03: Customer Problem Discovery
+
+### What We Completed
+
+1. Prepared customer discovery questions and interview templates for students and potential clients.
+2. Conducted 8 customer discovery interviews consisting of 6 university students and 2 SME/startup representatives.
+3. Analyzed interview responses, completed the Assumption vs Evidence Table, and created the Customer Discovery Summary.
+
+### What We Learned About the Problem
+
+1. Students face significant challenges finding freelance opportunities due to strong competition, lack of experience, and limited portfolio visibility.
+2. Existing platforms such as Fiverr, Upwork, and Facebook Groups are not optimized for beginner student freelancers and often create trust and onboarding barriers.
+3. Clients are willing to hire students if they can verify skills, view structured portfolios, and trust the student's qualifications.
+
+### What Evidence We Collected
+
+- **Number of respondents/interviews:** 8 respondents (6 students, 2 clients)
+- **Evidence file:** `data/raw-responses.xlsx`
+- **Key repeated pattern:** Students struggle to compete on existing platforms, while clients need better ways to verify student skills and trustworthiness before hiring.
+
+### What We Changed Based on Evidence
+
+Based on the interview findings, we decided to continue with the Student Freelancer Marketplace Platform. We refined our problem statement to focus on the trust gap between students and employers. We also identified key MVP features such as university verification, portfolio management, ratings and reviews, project matching, and payment protection.
+
+### Problems or Difficulties
+
+1. Limited access to SME and startup respondents resulted in a smaller client interview sample.
+2. Some respondents had limited freelance experience, requiring additional probing questions to obtain detailed feedback.
+
+### Evidence of Work
+
+- **GitHub repository link:** [Insert Repository URL]
+- **Customer questions file:** `docs/customer-questions.md`
+- **Raw responses file:** `data/raw-responses.xlsx`
+- **Assumption-evidence table:** `docs/assumption-evidence-table.md`
+- **Commit link:** [Insert Commit URL]
+
+### Plan for Lab 04
+
+The team will define the primary customer segment and develop customer personas based on the interview findings. We will identify the most suitable target users, including student freelancers and SME clients, and create detailed personas that represent their goals, challenges, and behaviors. The team will also write user stories to describe how users will interact with the platform and use these stories to guide MVP feature planning and future prototype design.
+
+
+
+- Interview more SMEs and startup founders.
+- Validate employer hiring behavior.
+- Design low-fidelity wireframes.
+- Define MVP features.
+- Prepare opportunity analysis for the next lab.
+
+

@@ -2,49 +2,50 @@
 
 ## MVP Decision Rule
 
-The MVP focuses on solving the validated problem identified during customer discovery by helping university students find trustworthy freelance opportunities while allowing companies to discover qualified student talent.
+The MVP focuses on solving the validated problem identified during customer discovery by helping university students find trustworthy freelance opportunities while allowing companies to discover qualified student talent through a secure and trusted marketplace.
 
 ---
 
 # MoSCoW Prioritization
 
 | Feature ID | Feature Name | Problem Solved | Related User Story | Priority | Technical Complexity (1-5) | User Value (1-5) | Evidence Strength (1-5) | Include in Prototype |
-|------------|--------------|----------------|--------------------|----------|---------------------------:|-----------------:|------------------------:|---------------------|
-| F01 | Student Registration & Login | Secure student access | US-01 | Must | 2 | 5 | 5 | Yes |
-| F02 | Student Profile | Students showcase their skills | US-02 | Must | 2 | 5 | 5 | Yes |
-| F03 | Portfolio Upload | Build client trust | US-03 | Must | 3 | 5 | 5 | Yes |
-| F04 | Client Project Posting | Clients publish freelance opportunities | US-04 | Must | 3 | 5 | 4 | Yes |
-| F05 | Browse Projects | Students discover suitable jobs | US-05 | Must | 2 | 5 | 5 | Yes |
-| F06 | Company Profile | Students verify companies before applying | US-06 | Must | 2 | 5 | 4 | Yes |
-| F07 | Project Application | Students apply for freelance work | US-08 | Must | 3 | 5 | 5 | Yes |
-| F08 | Student Portfolio Viewing | Clients evaluate student skills | US-09 | Must | 2 | 5 | 4 | Yes |
-| F09 | Messaging System | Communication between students and clients | US-10 | Should | 4 | 4 | 4 | Yes |
-| F10 | Company Ratings & Reviews | Students evaluate client trustworthiness | US-07, US-11 | Should | 3 | 5 | 4 | Yes |
-| F11 | Student Ratings & Reviews | Clients evaluate completed student work | US-12 | Should | 3 | 4 | 4 | Yes |
-| F12 | AI Project Recommendation | Suggest projects based on student skills | US-13 | Could | 5 | 4 | 3 | No |
+| ---------- | ------------ | -------------- | ------------------ | -------- | -------------------------- | ---------------- | ----------------------- | -------------------- |
+| F01 | User Registration & Login | Secure access for both students and companies | US-01 | Must | 2 | 5 | 5 | Yes |
+| F02 | Student Profile Management | Students showcase their skills and experience | US-02 | Must | 2 | 5 | 5 | Yes |
+| F03 | Portfolio Upload & Management | Build company trust through portfolios | US-03 | Must | 3 | 5 | 5 | Yes |
+| F04 | Company Profile Management | Companies create trustworthy business profiles | US-04 | Must | 3 | 5 | 5 | Yes |
+| F05 | Project Posting & Management | Companies publish and manage freelance opportunities | US-05 | Must | 3 | 5 | 5 | Yes |
+| F06 | Browse & Search Projects | Students discover suitable freelance opportunities | US-06 | Must | 2 | 5 | 5 | Yes |
+| F07 | Company Profile Viewing & Trust Information | Students verify companies before applying | US-07 | Must | 2 | 5 | 4 | Yes |
+| F08 | Project Application & Status Tracking | Students apply for freelance work and monitor application status | US-08 | Must | 3 | 5 | 5 | Yes |
+| F09 | Student Portfolio Viewing | Companies evaluate student skills before hiring | US-09 | Must | 2 | 5 | 4 | Yes |
+| F10 | Messaging System | Communication between students and companies | US-10 | Should | 4 | 4 | 4 | Yes |
+| F11 | Company Ratings & Reviews | Students evaluate company trustworthiness after project completion | US-11 | Should | 3 | 5 | 4 | Yes |
+| F12 | Student Ratings & Reviews | Companies evaluate completed student work | US-12 | Should | 3 | 4 | 4 | Yes |
 
 ---
 
 # Must-Have Features
 
-These features represent the minimum functionality required to validate the marketplace concept.
+These features represent the minimum functionality required to validate the Student Freelancer Marketplace Platform.
 
-- Student registration and login
+- User registration and login
 - Student profile management
-- Portfolio upload
-- Client project posting
-- Browse freelance projects
-- Company profile
-- Project application
+- Portfolio upload and management
+- Company profile management
+- Project posting and management
+- Browse and search freelance projects
+- Company profile viewing and trust information
+- Project application and status tracking
 - Student portfolio viewing
 
 ---
 
 # Should-Have Features
 
-These features improve trust and communication.
+These features improve trust and communication between students and companies.
 
-- Messaging between students and clients
+- Messaging between students and companies
 - Company ratings and reviews
 - Student ratings and reviews
 
@@ -55,7 +56,7 @@ These features improve trust and communication.
 These features provide additional value but are outside the MVP scope.
 
 - AI project recommendation
-- Skill-based matching
+- Skill-based project matching
 - AI portfolio improvement suggestions
 
 ---
@@ -65,12 +66,15 @@ These features provide additional value but are outside the MVP scope.
 The following features will not be implemented during the semester:
 
 - Online payment gateway
-- Milestone payment system
+- Escrow payment protection
+- Resume builder
 - Video interviews
-- Blockchain certificate verification
-- AI portfolio evaluation
 - Mobile application
 - Push notifications
+- Calendar integration
+- AI portfolio evaluation
+
+---
 
 # Final Prototype Scope
 
@@ -78,18 +82,18 @@ The following features will not be implemented during the semester:
 
 The first version of the Student Freelancer Marketplace Platform will include:
 
-- Student registration and login
+- User registration and login
 - Student profile management
 - Portfolio upload and management
+- Company profile management
+- Project posting and management
 - Browse and search freelance projects
-- Company profile viewing
-- Company ratings and reviews
-- Project application
-- Application status tracking
+- Company profile viewing and trust information
+- Project application and status tracking
+- Student portfolio viewing
 - Messaging between students and companies
-- Company project posting
-- Student rating and review
-- Company rating and review
+- Company ratings and reviews
+- Student ratings and reviews
 
 ---
 
@@ -109,4 +113,3 @@ The following features are planned for future versions after MVP validation:
 - Analytics dashboard
 
 These features require additional development effort and are reserved for future versions after the MVP has been validated.
-```
